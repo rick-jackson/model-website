@@ -1,0 +1,128 @@
+.audience {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 161, 198, 0.07);
+    padding-bottom: 110px;
+    &__button-item {
+      margin-top: 12px;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+    &__block-name {
+      margin: 0;
+      margin-top: 51px;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 34px;
+    }
+    &__button {
+      margin: 0;
+      margin-top: 30px;
+      justify-content: center;
+    }
+    &__button-item {
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+        inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    }
+    &__wrapper {
+      margin: auto;
+      text-align: center;
+    }
+    &__title {
+      margin: 17px auto 0px auto;
+      width: 290px;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 40px;
+      text-align: center;
+      letter-spacing: -0.357143px;
+    }
+    &__subtitle {
+      font-size: 24px;
+      line-height: 34px;
+      width: 290px;
+      margin: 18px auto 0px auto;
+    }
+  }
+  
+  .categories {
+    margin-top: 40px;
+  
+    &__user-image {
+      margin-top: 22px;
+    }
+    &__title {
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 28px;
+      text-align: center;
+      margin: 0;
+      margin-top: 22px;
+    }
+    &__user-card {
+      margin: 0px auto;
+      cursor: pointer;
+      background-color: #fff;
+      border-radius: 8px;
+      width: 290px;
+      height: 300px;
+      margin-top: 15px;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+        inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+  
+  .user-card {
+    &:hover {
+      box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15),
+        0px 11px 55px rgba(0, 0, 0, 0.07);
+    }
+  }
+  @media screen and (min-width: 400px) {
+    .audience {
+      &__block-name {
+        margin-top: 108px;
+      }
+      &__button {
+        margin-top: 34px;
+      }
+      &__button-item {
+        margin: 0px;
+        margin-left: 10px;
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+  
+      &__title {
+        margin: 24px auto 0px auto;
+        width: 555px;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+      }
+      &__subtitle {
+        width: 555px;
+        margin: 30px auto 0px auto;
+      }
+    }
+  
+    .categories {
+      margin-top: 111px;
+      display: flex;
+      &__user-card {
+        width: 262px;
+        height: 300px;
+        margin-left: 30px;
+        margin-top: 0;
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+  

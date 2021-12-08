@@ -11,6 +11,12 @@
     margin: auto;
     margin-top: 39px;
   }
+  &__action-button{
+    display: none;
+    @include for-large-up {
+      display: block;
+    }
+  }
   &__logo-description {
     display: none;
   }
