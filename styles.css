@@ -37,7 +37,7 @@
 @media screen and (min-width: 1400px) {
   .top-section {
     background-color: #f3c6bd;
-    padding-top: 39px;
+    padding-top: 41px;
   }
 }
 
@@ -46,10 +46,10 @@
 }
 @media screen and (min-width: 1400px) {
   .header {
+    padding-left: 15px;
     width: 1140px;
     height: 62px;
     margin: auto;
-    margin-top: 39px;
     display: flex;
   }
 }
@@ -96,16 +96,15 @@
     display: inline-block;
     margin-left: auto;
     margin-right: 75px;
-    margin-top: 5px;
   }
 }
 @media screen and (min-width: 1400px) {
   .navigation__item {
     color: #2b292d;
     text-decoration: none;
-    line-height: 25px;
     font-size: 18px;
     margin-right: 50px;
+    line-height: 60px;
   }
   .navigation__item:last-child {
     margin-right: 0;

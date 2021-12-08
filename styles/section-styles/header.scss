@@ -1,15 +1,15 @@
 .top-section {
   @include for-large-up {
     background-color: #f3c6bd;
-    padding-top: 39px;
+    padding-top: 41px;
   }
 }
 .header {
   @include for-large-up {
+    padding-left: 15px;
     width: 1140px;
     height: 62px;
     margin: auto;
-    margin-top: 39px;
     display: flex;
   }
   &__action-button {
@@ -48,15 +48,17 @@
     display: inline-block;
     margin-left: auto;
     margin-right: 75px;
-    margin-top: 5px;
+
+
+    
   }
   &__item {
     @include for-large-up {
       color: #2b292d;
       text-decoration: none;
-      line-height: 25px;
       font-size: 18px;
       margin-right: 50px;
+      line-height: 60px;
       &:last-child {
         margin-right: 0;
       }
