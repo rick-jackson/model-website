@@ -1,6 +1,6 @@
 .headline {
   background-color: #f3c6bd;
-  padding-bottom: 36px;
+  padding: 35px 15px;
   @include for-large-up {
     position: relative;
     width: 1140px;
@@ -10,9 +10,7 @@
     padding-bottom: 77px;
   }
   &__content {
-    padding: 35px 15px 0 15px;
     @include for-large-up {
-      padding: 0;
       position: absolute;
       z-index: 1;
     }

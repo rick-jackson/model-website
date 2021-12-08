@@ -324,7 +324,7 @@
 
 .headline {
   background-color: #f3c6bd;
-  padding-bottom: 36px;
+  padding: 35px 15px;
 }
 @media screen and (min-width: 1400px) {
   .headline {
@@ -336,12 +336,8 @@
     padding-bottom: 77px;
   }
 }
-.headline__content {
-  padding: 35px 15px 0 15px;
-}
 @media screen and (min-width: 1400px) {
   .headline__content {
-    padding: 0;
     position: absolute;
     z-index: 1;
   }
@@ -946,15 +942,6 @@
 .row-item__link {
   color: #3040c4;
   font-weight: 700;
-}
-
-.incase {
-  display: flex;
-  flex-wrap: wrap;
-}
-.incase__image {
-  display: flex;
-  max-width: 30%;
 }
 
 html {
