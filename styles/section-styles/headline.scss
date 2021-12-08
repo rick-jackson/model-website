@@ -1,6 +1,6 @@
 .headline {
   background-color: #f3c6bd;
-  padding: 35px 15px;
+  padding: 0px 15px 35px 15px;
   @include for-large-up {
     position: relative;
     width: 1140px;
@@ -11,17 +11,20 @@
     padding-bottom: 77px;
   }
   &__content {
+
     @include for-large-up {
       position: absolute;
       z-index: 1;
     }
   }
   &__title {
+
     font-weight: 700;
     font-size: 50px;
     line-height: 50px;
     letter-spacing: -0.3125px;
     margin: 0;
+    
     @include for-large-up {
       width: 754px;
       height: 165px;

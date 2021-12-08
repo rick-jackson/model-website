@@ -324,7 +324,7 @@
 
 .headline {
   background-color: #f3c6bd;
-  padding: 35px 15px;
+  padding: 0px 15px 35px 15px;
 }
 @media screen and (min-width: 1400px) {
   .headline {
