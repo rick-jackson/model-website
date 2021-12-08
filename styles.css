@@ -1262,11 +1262,23 @@
 .order {
   background: #f4f5f7;
   display: flex;
-  padding-bottom: 50px;
-  padding-top: 50px;
+  padding: 50px 15px;
+}
+@media screen and (min-width: 1400px) {
+  .order {
+    width: 1400px;
+    padding-bottom: 72px;
+    padding-top: 0;
+  }
 }
 .order__wrapper {
   margin: 0px auto;
+}
+@media screen and (min-width: 1400px) {
+  .order__wrapper {
+    display: flex;
+    margin: auto;
+  }
 }
 .order__image {
   display: block;
@@ -1274,9 +1286,23 @@
   height: 220px;
   margin: 0px auto;
 }
+@media screen and (min-width: 1400px) {
+  .order__image {
+    margin: 0px;
+    width: 269px;
+    height: 296px;
+    margin-right: 122px;
+    margin-top: 73px;
+  }
+}
 .order__content {
   margin-top: 40px;
-  width: 290px;
+}
+@media screen and (min-width: 1400px) {
+  .order__content {
+    margin-top: 106px;
+    width: 555px;
+  }
 }
 .order__title {
   margin: 0;
@@ -1285,7 +1311,12 @@
   line-height: 40px;
   text-align: center;
   letter-spacing: -0.25px;
-  width: 290px;
+}
+@media screen and (min-width: 1400px) {
+  .order__title {
+    width: 555px;
+    text-align: left;
+  }
 }
 .order__description {
   margin: 0;
@@ -1295,22 +1326,37 @@
   width: 290px;
   height: 167px;
 }
+@media screen and (min-width: 1400px) {
+  .order__description {
+    width: 555px;
+    margin-top: 12px;
+    height: 64px;
+  }
+}
 .order form {
   margin-top: 40px;
 }
+@media screen and (min-width: 1400px) {
+  .order form {
+    margin-top: 26px;
+    display: flex;
+  }
+}
 .order__enter-mail {
+  width: 100%;
   text-align: center;
-  width: 290px;
   height: 48px;
   border: 1px solid rgba(43, 41, 45, 0.2);
   box-sizing: border-box;
   border-radius: 2px;
   padding: 17px 0px 18px 15px;
   margin-right: 10px;
+  margin-bottom: 12px;
 }
-.order__button {
-  width: 290px;
-  margin-top: 12px;
+@media screen and (min-width: 1400px) {
+  .order__enter-mail {
+    width: 385px;
+  }
 }
 .order__free-trial {
   display: inline-block;
@@ -1320,70 +1366,6 @@
   color: rgba(43, 41, 45, 0.6);
 }
 
-@media screen and (min-width: 400px) {
-  .order {
-    width: 1400px;
-    padding-bottom: 72px;
-    padding-top: 0;
-    display: flex;
-  }
-  .order__wrapper {
-    display: flex;
-    margin: auto;
-  }
-  .order__image {
-    margin: 0px;
-    width: 269px;
-    height: 296px;
-    margin-right: 122px;
-    margin-top: 73px;
-  }
-  .order__content {
-    margin-top: 106px;
-    width: 555px;
-  }
-  .order__title {
-    width: 555px;
-    margin: 0;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 40px;
-    letter-spacing: -0.25px;
-    text-align: left;
-  }
-  .order__description {
-    width: 555px;
-    margin: 0;
-    margin-top: 12px;
-    font-size: 22px;
-    line-height: 32px;
-    height: 64px;
-  }
-  .order form {
-    margin-top: 26px;
-    display: flex;
-  }
-  .order__button {
-    width: 160px;
-    margin: 0px;
-  }
-  .order__enter-mail {
-    width: 385px;
-    height: 48px;
-    border: 1px solid rgba(43, 41, 45, 0.2);
-    box-sizing: border-box;
-    border-radius: 2px;
-    padding: 17px 0px 18px 15px;
-    margin-right: 10px;
-  }
-  .order__free-trial {
-    display: inline-block;
-    margin-top: 10px;
-    font-size: 14px;
-    line-height: 22px;
-    color: rgba(43, 41, 45, 0.6);
-  }
-}
 html {
   color: #2b292d;
   font-family: "Work Sans", sans-serif;
