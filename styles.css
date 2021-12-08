@@ -50,6 +50,7 @@
     height: 62px;
     margin: auto;
     margin-top: 39px;
+    display: flex;
   }
 }
 .header__action-button {
@@ -57,13 +58,11 @@
 }
 @media screen and (min-width: 1400px) {
   .header__action-button {
+    align-items: center;
     display: block;
   }
 }
 .header__logo-description {
-  display: none;
-}
-.header__action-button {
   display: none;
 }
 .header__burger {
@@ -79,9 +78,13 @@
     display: none;
   }
 }
+.header__action-button {
+  display: none;
+}
 @media screen and (min-width: 1400px) {
   .header__action-button {
-    display: inline-block;
+    display: block;
+    margin: auto 0px;
   }
 }
 
@@ -92,7 +95,7 @@
   .navigation {
     display: inline-block;
     margin-left: auto;
-    margin-right: 75px;
+    margin-right: 56px;
     line-height: 55px;
   }
 }
