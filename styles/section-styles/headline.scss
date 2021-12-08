@@ -1,6 +1,6 @@
 .headline {
   background-color: #f3c6bd;
-  padding: 0px 15px 35px 15px;
+  padding: 35px 15px 35px 15px;
   @include for-large-up {
     position: relative;
     width: 1140px;
@@ -58,14 +58,16 @@
     }
   }
   &__actions {
+    margin-top: 30px;
     @include for-large-up {
       margin-top: 58px;
       display: flex;
+
     }
   }
   &__action-button {
     width: 100%;
-    margin-top: 30px;
+
     @include for-large-up {
       width: 160px;
       margin: 0;

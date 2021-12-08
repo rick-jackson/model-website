@@ -356,7 +356,7 @@
 
 .headline {
   background-color: #f3c6bd;
-  padding: 0px 15px 35px 15px;
+  padding: 35px 15px 35px 15px;
 }
 @media screen and (min-width: 1400px) {
   .headline {
@@ -421,6 +421,9 @@
     margin-left: auto;
   }
 }
+.headline__actions {
+  margin-top: 30px;
+}
 @media screen and (min-width: 1400px) {
   .headline__actions {
     margin-top: 58px;
@@ -429,7 +432,6 @@
 }
 .headline__action-button {
   width: 100%;
-  margin-top: 30px;
 }
 @media screen and (min-width: 1400px) {
   .headline__action-button {
