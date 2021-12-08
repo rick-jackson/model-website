@@ -1,0 +1,29 @@
+@import "breakpoints.scss";
+@import "section-styles/common.scss";
+@import "section-styles/header.scss";
+@import "section-styles/footer.scss";
+@import "section-styles/headline.scss";
+@import "section-styles/about.scss";
+@import "section-styles/customers.scss";
+@import "section-styles/features.scss";
+@import "section-styles/tips.scss";
+@import "section-styles/inbox.scss";
+@import "section-styles/communication.scss";
+
+html {
+  color: #2b292d;
+  font-family: "Work Sans", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 400px) {
+  .page {
+    width: 1400px;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
