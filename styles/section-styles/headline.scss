@@ -1,6 +1,6 @@
 .headline {
   background-color: #f3c6bd;
-  padding-bottom:35px;
+  padding-bottom: 35px;
   @include for-large-up {
     position: relative;
     width: 1140px;
@@ -10,12 +10,17 @@
     padding: 0;
     padding-bottom: 77px;
   }
-  .action-button_white{
-margin-top: 15px;
+  .action-button_white {
+    margin-top: 15px;
+    @include for-large-up {
+      margin: 0;
+      margin-left: 10px;
+    }
   }
   &__content {
     padding: 0px 15px;
     @include for-large-up {
+      padding: 0px;
       position: absolute;
       z-index: 1;
     }

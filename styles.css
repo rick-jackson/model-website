@@ -374,11 +374,18 @@
 .headline .action-button_white {
   margin-top: 15px;
 }
+@media screen and (min-width: 1400px) {
+  .headline .action-button_white {
+    margin: 0;
+    margin-left: 10px;
+  }
+}
 .headline__content {
   padding: 0px 15px;
 }
 @media screen and (min-width: 1400px) {
   .headline__content {
+    padding: 0px;
     position: absolute;
     z-index: 1;
   }
