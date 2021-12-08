@@ -95,8 +95,8 @@
   .navigation {
     display: inline-block;
     margin-left: auto;
-    margin-right: 56px;
-    line-height: 55px;
+    margin-right: 75px;
+    margin-top: 5px;
   }
 }
 @media screen and (min-width: 1400px) {
