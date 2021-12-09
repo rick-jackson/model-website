@@ -1,5 +1,5 @@
 .headline {
-  background-color: #f3c6bd;
+  background-color: $color-yellow-light;
   padding-bottom: 35px;
   @include for-large-up {
     position: relative;
@@ -83,8 +83,8 @@
     &_white {
       margin-top: 15px;
       width: 100%;
-      background-color: #fff;
-      color: #3040c4;
+      background-color: $color-white;
+      color: $text-color-blue;
       @include for-large-up {
         width: 158px;
         margin: 0;

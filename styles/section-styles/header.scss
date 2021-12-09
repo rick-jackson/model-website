@@ -1,6 +1,6 @@
 .top-section {
   @include for-large-up {
-    background-color: #f3c6bd;
+    background-color: $color-yellow-light;
     padding-top: 41px;
   }
 }
@@ -27,7 +27,7 @@
     border: none;
     padding: 0;
     width: 58px;
-    background-color: #fff;
+    background-color: $color-white;
     border-left: 1px solid rgba(0, 0, 0, 0.15);
     margin-left: auto;
     @include for-large-up {
@@ -54,7 +54,7 @@
   }
   &__item {
     @include for-large-up {
-      color: #2b292d;
+      color: $color-dark;
       text-decoration: none;
       font-size: 18px;
       margin-right: 50px;
@@ -97,7 +97,7 @@
       display: inline-block;
       font-size: 18px;
       line-height: 25px;
-      color: #2b292d;
+      color: $color-dark;
       opacity: 0.6;
     }
   }

@@ -12,7 +12,7 @@
       font-size: 18px;
       width: 360px;
       margin-top: 26px;
-      color: rgba(43, 41, 45, 0.6);
+      color: $text-color-dark-opacity;
     }
     display: none;
   }
@@ -37,7 +37,7 @@
   &__description {
     font-size: 18px;
     line-height: 25px;
-    color: rgba(43, 41, 45, 0.6);
+    color: $text-color-dark-opacity;
   }
 }
 .nav-links {
@@ -49,7 +49,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
-    color: #2b292d;
+    color: $color-dark;
     margin: 0;
     margin-top: 30px;
   }
@@ -57,7 +57,7 @@
     list-style-type: none;
     font-size: 18px;
     line-height: 30px;
-    color: rgba(43, 41, 45, 0.6);
+    color: $text-color-dark-opacity;
     padding: 0;
     margin: 0;
     margin-top: 18px;
@@ -110,7 +110,7 @@
   }
   &__items {
     text-decoration: none;
-    color: rgba(43, 41, 45, 0.6);
+    color: $text-color-dark-opacity;
     margin-right: 22px;
   }
 }

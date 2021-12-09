@@ -61,10 +61,10 @@
     }
     &:hover {
       .hiring__vacancy-city{
-        color: #fff;
+        color: $text-color-white;
       }
-      background: #3141c5;
-      color: #fff;
+      background: $color-dark-blue;
+      color: $text-color-white;
     }
     @include for-large-up {
       width: 750px;
