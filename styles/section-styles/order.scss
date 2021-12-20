@@ -1,7 +1,7 @@
 .order {
-  background: $color-light;
   display: flex;
   padding: 50px 15px;
+  background: $color-light;
   @include for-large-up {
     width: 1400px;
     padding-bottom: 72px;
@@ -20,9 +20,9 @@
     height: 220px;
     margin: 0px auto;
     @include for-large-up {
-      margin: 0px;
       width: 269px;
       height: 296px;
+      margin: 0px;
       margin-right: 122px;
       margin-top: 73px;
     }
@@ -47,12 +47,12 @@
     }
   }
   &__description {
+    width: 290px;
+    height: 167px;
     margin: 0;
     margin-top: 18px;
     font-size: 22px;
     line-height: 32px;
-    width: 290px;
-    height: 167px;
     @include for-large-up {
       width: 555px;
       margin-top: 12px;
@@ -62,20 +62,20 @@
   form {
     margin-top: 40px;
     @include for-large-up {
-      margin-top: 26px;
       display: flex;
+      margin-top: 26px;
     }
   }
   &__enter-mail {
     width: 100%;
-    text-align: center;
     height: 48px;
-    border: 1px solid rgba(43, 41, 45, 0.2);
-    box-sizing: border-box;
-    border-radius: 2px;
     padding: 17px 0px 18px 15px;
     margin-right: 10px;
     margin-bottom: 12px;
+    text-align: center;
+    border: 1px solid rgba(43, 41, 45, 0.2);
+    box-sizing: border-box;
+    border-radius: 2px;
     @include for-large-up {
       width: 385px;
     }

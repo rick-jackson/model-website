@@ -60,7 +60,7 @@
       margin-bottom: 0;
     }
     &:hover {
-      .hiring__vacancy-city{
+      .hiring__vacancy-city {
         color: $text-color-white;
       }
       background: $color-dark-blue;
@@ -85,12 +85,13 @@
     margin-right: 19px;
   }
   &__arrow {
-    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png)  ;
-    background-repeat: no-repeat;
-transform: rotate(-90deg);
     display: inline-block;
     height: 7.5px;
     width: 12px;
-   margin: auto 0px;
+    margin: auto 0px;
+    background-image: url(
+    https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
+    background-repeat: no-repeat;
+    transform: rotate(-90deg);
   }
 }

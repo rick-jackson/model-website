@@ -4,7 +4,7 @@
 
 Layout supports mobile (up-to-400) and desktop (up-to-1360) versions
 
-###The tech stack is:
+### The tech stack is:
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
@@ -12,4 +12,4 @@ Layout supports mobile (up-to-400) and desktop (up-to-1360) versions
 - [Sass (Scss)](https://sass-lang.com/)
 - [BEM methodology](https://en.bem.info/methodology/)
 ### Author
-- #####Vitalii Sekreta
+- ##### Vitalii Sekreta

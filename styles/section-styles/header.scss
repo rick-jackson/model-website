@@ -1,22 +1,22 @@
 .top-section {
   @include for-large-up {
-    background-color: $color-yellow-light;
     padding-top: 41px;
+    background-color: $color-yellow-light;
   }
 }
 .header {
   @include for-large-up {
-    padding-left: 15px;
+    display: flex;
     width: 1140px;
     height: 62px;
     margin: auto;
-    display: flex;
+    padding-left: 15px;
   }
   &__action-button {
     display: none;
     @include for-large-up {
-      align-items: center;
       display: block;
+      align-items: center;
     }
   }
   &__logo-description {
@@ -24,9 +24,9 @@
   }
   display: flex;
   &__burger {
-    border: none;
-    padding: 0;
     width: 58px;
+    padding: 0;
+    border: none;
     background-color: $color-white;
     border-left: 1px solid rgba(0, 0, 0, 0.15);
     margin-left: auto;
@@ -48,16 +48,13 @@
     display: inline-block;
     margin-left: auto;
     margin-right: 75px;
-
-
-    
   }
   &__item {
     @include for-large-up {
+      margin-right: 50px;
       color: $color-dark;
       text-decoration: none;
       font-size: 18px;
-      margin-right: 50px;
       line-height: 60px;
       &:last-child {
         margin-right: 0;
@@ -73,7 +70,8 @@
       height: 5px;
       width: 8px;
       margin-left: 11px;
-      background-image: url(img/icon/arrow.png);
+      background-image: url(
+      https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
     }
   }
 }

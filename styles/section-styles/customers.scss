@@ -3,12 +3,12 @@
   flex-direction: column;
   @include for-large-up {
     width: 1140px;
+    flex-direction: row;
     margin: auto;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 106px;
     padding-top: 30px;
-    flex-direction: row;
   }
   &__row {
     display: flex;
@@ -18,14 +18,15 @@
     }
   }
   &__item {
-    flex: 1;
     height: 94px;
     width: 107px;
-    border-bottom: 1px solid $color-light-grey;
-    border-right: 1px solid $color-light-grey;
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid $color-light-grey;
+    border-right: 1px solid $color-light-grey;
+
     @include for-large-up {
       border: none;
     }
