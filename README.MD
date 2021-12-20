@@ -1,6 +1,6 @@
 # Layout Sample Project
 
-**[Site link](https://github.com/rick-jackson/model-website)**
+**[Site link](https://rick-jackson.github.io/model-website/)**
 
 Layout supports mobile (up-to-400) and desktop (up-to-1360) versions
 
