@@ -29,8 +29,7 @@
     }
   }
   &__button-item {
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    box-shadow: $shadow-color;
     @include for-large-up {
       margin: 0px;
       margin-left: 10px;
@@ -98,15 +97,13 @@
   cursor: pointer;
   background-color: $color-white;
   border-radius: 8px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: $shadow-color;
   &:active {
     .categories__title {
       color: $text-color-white;
     }
     background: $color-dark-blue;
-    box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15),
-      0px 11px 55px rgba(0, 0, 0, 0.07);
+    box-shadow: $shadow-color;
   }
   &:first-child {
     margin-top: 0;
